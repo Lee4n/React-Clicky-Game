@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 
 const App = () => 
-    <div>
+    <div className="grey darken-3">
         <Navbar />
         <Header />
     </div>

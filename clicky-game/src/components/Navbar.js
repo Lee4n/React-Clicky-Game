@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbar = () => (
-  <nav>
+  <nav class="purple darken-4">
     <div class="nav-wrapper row">
       <div class="container">
       <a href="#" class="brand-logo">Clicky Game</a>
