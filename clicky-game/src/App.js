@@ -8,6 +8,7 @@ const App = () =>
         
 <div>
     <Navbar />
+    <br />
     <Header />
     <div style={{margin: 'auto'}} className="container-fluid card-deck">
         <div style={{width: '100%', marginLeft: 0, marginRight: 0}} className="row">
