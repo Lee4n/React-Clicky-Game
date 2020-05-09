@@ -58,27 +58,25 @@ class Container extends Component {
     let newImgArr = shuffle(Pics);
 
     return (
-      <div className="container-fluid card-deck">
-        {/* <Scoreboard wins={this.state.winsTracker} losses={this.state.lossTracker}/> */}
+      <div className="container">
         <div>
-          <h3 className="col-sm">
-            Wins: {this.state.winsTracker}
-            | Losses: {this.state.lossTracker}
+          <h3 className="text-center">
+            Wins: {this.state.winsTracker} | Losses: {this.state.lossTracker}
           </h3>
         </div>
-        <div className="row card">
+        <div className="row">
           <Card id={newImgArr[0].id} image={newImgArr[0].image} imageClick = {this.imageClick} />
           <Card id={newImgArr[1].id} image={newImgArr[1].image} imageClick = {this.imageClick} />
           <Card id={newImgArr[2].id} image={newImgArr[2].image} imageClick = {this.imageClick} />
           <Card id={newImgArr[3].id} image={newImgArr[3].image} imageClick = {this.imageClick} />
         </div>
-        <div className="row card">
+        <div className="row">
           <Card id={newImgArr[4].id} image={newImgArr[4].image} imageClick = {this.imageClick} />
           <Card id={newImgArr[5].id} image={newImgArr[5].image} imageClick = {this.imageClick} />
           <Card id={newImgArr[6].id} image={newImgArr[6].image} imageClick = {this.imageClick} />
           <Card id={newImgArr[7].id} image={newImgArr[7].image} imageClick = {this.imageClick} />
         </div>
-        <div className="row card">
+        <div className="row">
           <Card id={newImgArr[8].id} image={newImgArr[8].image} imageClick = {this.imageClick} />
           <Card id={newImgArr[9].id} image={newImgArr[9].image} imageClick = {this.imageClick} />
           <Card id={newImgArr[10].id} image={newImgArr[10].image} imageClick = {this.imageClick} />

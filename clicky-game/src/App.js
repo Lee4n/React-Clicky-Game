@@ -3,7 +3,8 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Container from './components/container'
 
-const App = () => <div>
+const App = () => 
+<div>
   <Navbar />
   <br/>
   <Header />
